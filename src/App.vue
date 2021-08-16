@@ -1,17 +1,33 @@
+
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <!-- <List></List> -->
+    <!-- <DND></DND> -->
+    <!-- <Base></Base> -->
+    <!-- <slotTest></slotTest> -->
+    <mh-model></mh-model>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+// import List from './components/List.vue'
+// import DND from './components/DND.vue'
+// import Base from './learnVUE/base.vue'
+// import slotTest from './learnVUE/slotTest.vue'
+import mhModel from './learnVUE/mhModel.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld,
+    // List
+    // DND
+    // Base
+    // slotTest
+    mhModel
   }
 }
 </script>

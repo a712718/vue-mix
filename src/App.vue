@@ -7,7 +7,8 @@
     <!-- <DND></DND> -->
     <!-- <Base></Base> -->
     <!-- <slotTest></slotTest> -->
-    <mh-model></mh-model>
+    <!-- <mh-model></mh-model> -->
+    <axios-form></axios-form>
   </div>
 </template>
 
@@ -17,7 +18,8 @@
 // import DND from './components/DND.vue'
 // import Base from './learnVUE/base.vue'
 // import slotTest from './learnVUE/slotTest.vue'
-import mhModel from './learnVUE/mhModel.vue'
+// import mhModel from './learnVUE/mhModel.vue'
+import axiosForm from './learnVUE/axiosForm.vue'
 
 
 export default {
@@ -28,7 +30,8 @@ export default {
     // DND
     // Base
     // slotTest
-    mhModel
+    // mhModel
+    axiosForm
   }
 }
 </script>

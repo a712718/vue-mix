@@ -11,7 +11,8 @@
     <!-- <kityMinder></kityMinder> -->
     <!-- <vue-minder-editor></vue-minder-editor> -->
     <!-- <gojs></gojs> -->
-    <ShapesOfCSS></ShapesOfCSS>
+    <!-- <ShapesOfCSS></ShapesOfCSS> -->
+    <axios-form></axios-form>
   </div>
 </template>
 
@@ -24,7 +25,9 @@
 // import mhModel from './learnVUE/mhModel.vue'
 // import kityMinder from './learnVUE/kityMinder.vue'
 // import gojs from './learnVUE/gojs';
-import ShapesOfCSS from './components/ShapesOfCSS.vue'
+// import ShapesOfCSS from './components/ShapesOfCSS.vue'
+import axiosForm from './learnVUE/axiosForm.vue'
+
 
 export default {
   name: 'App',
@@ -36,7 +39,8 @@ export default {
     // slotTest
     // kityMinder
     // gojs
-    ShapesOfCSS
+    // ShapesOfCSS,
+    axiosForm,
   },
   data() {
     return {

@@ -9,7 +9,19 @@
   },
   "dependencies": {
     "core-js": "^3.10.1",
-    "vue": "^2.6.12"
+    "element-ui": "^2.15.5",
+    "gojs": "^2.1.49",
+    "kity": "^2.0.4",
+    "kityminder-core": "^1.4.50",
+    "mh-react-button": "^1.0.0",
+    "sass-loader": "^12.1.0",
+    "vue": "^2.6.12",
+    "vue-minder-editor": "^1.1.0",
+    "vuex": "^3.6.2"
+  },
+  "peerDependencies": {
+    "element-ui": "^2.12.0",
+    "vuex": "^3.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.12",
@@ -38,5 +50,18 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a712718/vue-mix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a712718/vue-mix/issues"
+  },
+  "homepage": "https://github.com/a712718/vue-mix#readme"
 }

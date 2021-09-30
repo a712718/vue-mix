@@ -7,7 +7,11 @@
     <!-- <DND></DND> -->
     <!-- <Base></Base> -->
     <!-- <slotTest></slotTest> -->
-    <mh-model></mh-model>
+    <!-- <mh-model></mh-model> -->
+    <!-- <kityMinder></kityMinder> -->
+    <!-- <vue-minder-editor></vue-minder-editor> -->
+    <!-- <gojs></gojs> -->
+    <ShapesOfCSS></ShapesOfCSS>
   </div>
 </template>
 
@@ -17,8 +21,10 @@
 // import DND from './components/DND.vue'
 // import Base from './learnVUE/base.vue'
 // import slotTest from './learnVUE/slotTest.vue'
-import mhModel from './learnVUE/mhModel.vue'
-
+// import mhModel from './learnVUE/mhModel.vue'
+// import kityMinder from './learnVUE/kityMinder.vue'
+// import gojs from './learnVUE/gojs';
+import ShapesOfCSS from './components/ShapesOfCSS.vue'
 
 export default {
   name: 'App',
@@ -28,8 +34,27 @@ export default {
     // DND
     // Base
     // slotTest
-    mhModel
+    // kityMinder
+    // gojs
+    ShapesOfCSS
+  },
+  data() {
+    return {
+      importJson: {
+        "root": {
+          "data": {
+            "text": "test222"
+          },
+          "children": [
+            { "data": { "text": "地图aa" } },
+            { "data": { "text": "百科aa","expandState":"collapse"}}
+          ]
+        },
+        "template":"default"
+      }
+    }
   }
+ 
 }
 </script>
 

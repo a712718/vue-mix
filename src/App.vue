@@ -12,7 +12,8 @@
     <!-- <vue-minder-editor></vue-minder-editor> -->
     <!-- <gojs></gojs> -->
     <!-- <ShapesOfCSS></ShapesOfCSS> -->
-    <axios-form></axios-form>
+    <!-- <axios-form></axios-form> -->
+    <jsPlumb></jsPlumb>
   </div>
 </template>
 
@@ -26,8 +27,8 @@
 // import kityMinder from './learnVUE/kityMinder.vue'
 // import gojs from './learnVUE/gojs';
 // import ShapesOfCSS from './components/ShapesOfCSS.vue'
-import axiosForm from './learnVUE/axiosForm.vue'
-
+// import axiosForm from './learnVUE/axiosForm.vue'
+import jsPlumb from './components/jsPlumb.vue'
 
 export default {
   name: 'App',
@@ -40,7 +41,8 @@ export default {
     // kityMinder
     // gojs
     // ShapesOfCSS,
-    axiosForm,
+    // axiosForm,
+    jsPlumb
   },
   data() {
     return {

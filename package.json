@@ -12,6 +12,7 @@
     "core-js": "^3.10.1",
     "element-ui": "^2.15.5",
     "gojs": "^2.1.49",
+    "jsplumb": "^2.15.6",
     "kity": "^2.0.4",
     "kityminder-core": "^1.4.50",
     "mh-react-button": "^1.0.0",

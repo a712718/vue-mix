@@ -9,7 +9,7 @@ Vue.use(ElementUI);
 Vue.use(vueMinderEditor);
 Vue.use(Vuex);
 
-console.log('vueMinderEditor ,,,',vueMinderEditor);
+// console.log('vueMinderEditor ,,,',vueMinderEditor);
 
 Vue.config.productionTip = false
 

@@ -13,7 +13,9 @@
     <!-- <gojs></gojs> -->
     <!-- <ShapesOfCSS></ShapesOfCSS> -->
     <!-- <axios-form></axios-form> -->
-    <jsPlumb></jsPlumb>
+    <!-- <jsPlumb></jsPlumb> -->
+    <!-- <es6Test></es6Test> -->
+    <vue-source3></vue-source3>
   </div>
 </template>
 
@@ -28,7 +30,9 @@
 // import gojs from './learnVUE/gojs';
 // import ShapesOfCSS from './components/ShapesOfCSS.vue'
 // import axiosForm from './learnVUE/axiosForm.vue'
-import jsPlumb from './components/jsPlumb.vue'
+// import jsPlumb from './components/jsPlumb.vue'
+// import es6Test from './components/es6Test.vue'
+import vueSource3 from './learnVUE/vueSource3.vue'
 
 export default {
   name: 'App',
@@ -42,7 +46,10 @@ export default {
     // gojs
     // ShapesOfCSS,
     // axiosForm,
-    jsPlumb
+    // jsPlumb
+    // es6Test,
+    // mhModel
+    vueSource3
   },
   data() {
     return {

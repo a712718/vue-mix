@@ -1,5 +1,9 @@
 <template>
-  <x-input v-model="data" />
+  <div>
+    <!-- <x-input v-model="data" /> -->
+    <x-input :title="data" @change="data = $event"/>
+    {{ data}}
+  </div>
 </template>
 
 <script>

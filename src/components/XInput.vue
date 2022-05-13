@@ -1,6 +1,6 @@
 <template>
   <input type="text"
-   :value="value"
+   :value="title"
    @change="handleChange"
   />
 </template>
@@ -27,14 +27,14 @@ export default {
   // 但是像单选框、复选框等类型的输入控件可能会将 value attribute 用于不同的目的。
   // model 选项可以用来避免这样的冲突：
   props: {
-    value: String
+    title: String
   },
   data() {
     return {}
   },
   methods: {
     handleChange(event) {
-      this.$emit('input', event.target.value)
+      this.$emit('change', event.target.value)
     }
   }
   
